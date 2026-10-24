@@ -2,7 +2,7 @@
 // @name			ChatGPT-ComposerFormatGuard
 // @name:zh-CN		ChatGPT-输入格式保护
 // @namespace		https://github.com/Mehver
-// @version		1.0
+// @version		1.1
 // @description		Keep pasted and typed Markdown literal in the ChatGPT composer until it is sent.
 // @description:zh-CN	让粘贴和键入的 Markdown 在 ChatGPT 输入框中保持原样，发送后再由 ChatGPT 渲染。
 // @author		https://github.com/Mehver
@@ -23,7 +23,7 @@
 (function () {
     'use strict';
 
-    const COMPOSER_SELECTOR = '#thread-bottom form[data-type="unified-composer"] #prompt-textarea.ProseMirror[contenteditable="true"], form[data-type="unified-composer"] #prompt-textarea.ProseMirror[contenteditable="true"], #prompt-textarea.ProseMirror[contenteditable="true"]';
+    const COMPOSER_SELECTOR = '[data-app-shell-active-page="true"] form[data-chatgpt-composer] [contenteditable="true"][data-composer-markdown], #thread-bottom form[data-type="unified-composer"] #prompt-textarea.ProseMirror[contenteditable="true"], form[data-type="unified-composer"] #prompt-textarea.ProseMirror[contenteditable="true"], #prompt-textarea.ProseMirror[contenteditable="true"]';
     const STORAGE_KEY = 'chatgptComposerFormatGuardEnabled';
     const TOGGLE_ID = 'chatgpt-composer-format-guard-toggle';
     const FORMAT_SHORTCUTS = new Set(['b', 'i', 'u']);

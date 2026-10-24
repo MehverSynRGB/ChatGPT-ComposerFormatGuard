@@ -1,6 +1,6 @@
 <div align="center">
     <img src="https://github.com/MehverSynRGB/ChatGPT-ComposerFormatGuard/raw/main/docs/icon/256.png" width="20%"/>
-    <h1>ChatGPT-输入格式保护 <code>v1.0</code></h1>
+    <h1>ChatGPT-输入格式保护 <code>v1.1</code></h1>
     <p>
         <a href='https://github.com/MehverSynRGB/ChatGPT-ComposerFormatGuard'><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&amp;logo=GitHub&amp;logoColor=white" referrerpolicy="no-referrer" alt="GitHub"></a>
         <a href='https://greasyfork.org/scripts/592655'><img src="https://img.shields.io/badge/-GreasyFork-670000?style=flat&amp;logo=tampermonkey&amp;logoColor=white" referrerpolicy="no-referrer" alt="GreasyFork"></a>
